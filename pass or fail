@@ -1,0 +1,6 @@
+marks = int(input("Enter the marks obtained in the exam :"))
+
+if marks >= 60:
+    print("Passed!!!")
+else:
+    print("Failed()")
