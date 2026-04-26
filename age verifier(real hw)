@@ -1,0 +1,8 @@
+age = int(input("Enter the age of the individual:"))
+
+if age > 10 and age < 20 :
+    print("The individual is between 10 and 20 yrs old.")
+elif age < 10:
+    print("The individual is less than 10 yrs old.")
+else:
+    print("The age of individual is more than 20 yrs old.")
