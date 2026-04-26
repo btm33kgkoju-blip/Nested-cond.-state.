@@ -1,0 +1,29 @@
+print("Seeing if a student is allegible for exam based on assignments")
+assignment = input("Did you submit 80% of all assignment? (Y/N):").strip().upper()
+if assignment == 'Y':
+    print("You are allowed")
+else:
+    performance = int(input("Enter the performance of the student: "))
+    
+    if performance >= 50:
+        print("You are allowed")
+    else:
+        print("You are not allowed")
+        
+print("Calculating the water bil of Nepali household")
+litre = int(input("Please Enter the litre of water consumed in the month:"))
+
+if (litre <= 10):
+    amount = litre * 3.00
+    
+elif (litre <= 20):
+    amount = 30 + ((litre - 10) * 3.20)
+    
+elif (litre <= 30):
+    amount = 30 + 32 + ((litre - 20) * 4.00)
+    
+else:
+    amount = 30 + 32 + 40 + ((litre - 30) * 5.00)
+    
+total = amount 
+print("\nWater bill = %.2f" % total)
